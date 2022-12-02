@@ -10,7 +10,7 @@ function Blogpost(props) {
     return (
         <>
         <div>
-            <h1>`Blogpost:${id}:{title}</h1>
+            <h1>{`Blogpost ${id}: ${title}`}</h1>
             <h2>{date}</h2>
             <p>{content}</p>
         </div>

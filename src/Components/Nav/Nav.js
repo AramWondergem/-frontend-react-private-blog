@@ -1,10 +1,11 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
+import "./nav.css"
 
 function Nav({isAuth,toggleIsAuth}) {
     return (
         <nav>
-            <ul>
+            <ul className="nav">
                 <NavLink
                     className={({ isActive }) => isActive ? 'active-menu-link' : 'default-menu-link'}
                     to="/">
