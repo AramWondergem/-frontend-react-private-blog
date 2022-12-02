@@ -1,0 +1,23 @@
+nav {
+    background-color: darkorange;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.active-menu-link {
+    border-bottom: none;
+
+}
+
+.default-menu-link {
+    border-bottom: 3px solid black;
+
+}
